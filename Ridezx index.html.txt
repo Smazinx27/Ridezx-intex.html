@@ -1,0 +1,2711 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags, title, and stylesheets -->
+</head>
+<body>
+    <header>
+        <!-- Navigation menu and logo -->
+    </header>
+    <main>
+        <section id="home" class="parallax-section">
+            <div class="parallax-layer" data-depth="0.2">
+                <video autoplay loop muted>
+                    <source src="video/home-header.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="parallax-layer" data-depth="0.4">
+                <h1 class="hero-title">Embark on Unforgettable Adventures with Ridezx</h1>
+                <p class="hero-subtitle">Where Innovation Meets Thrills</p>
+            </div>
+        </section>
+        <section id="featured-rides">
+            <!-- Featured rides and descriptions -->
+        </section>
+        <section id="user-testimonials">
+            <!-- User testimonials and carousel -->
+        </section>
+    </main>
+    <footer>
+        <!-- Footer content and links -->
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+/* Parallax section styles */
+.parallax-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.parallax-layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* Hero section styles */
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30vh;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    animation: fadeInUp 1s ease-in-out 0.5s;
+}
+
+/* Video styles */
+video {
+    width: 100%;
+    height: auto;
+}
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+<!-- ... (previous code) ... -->
+
+        <section id="featured-rides">
+            <h2 class="section-title">Featured Rides</h2>
+            <div class="ride-card">
+                <img src="images/ride1.jpg" alt="Ride 1">
+                <h3 class="ride-title">Thrill Seeker</h3>
+                <p class="ride-description">Experience the ultimate adrenaline rush on our flagship ride. Dare to challenge your limits!</p>
+                <a href="#" class="ride-link">Learn More</a>
+            </div>
+            <!-- Repeat the ride-card structure for other featured rides -->
+        </section>
+
+        <section id="user-testimonials">
+            <h2 class="section-title">User Testimonials</h2>
+            <div class="testimonial-carousel">
+                <!-- Testimonial slides with user quotes and images -->
+            </div>
+        </section>
+
+        <section id="news-updates">
+            <h2 class="section-title">News and Updates</h2>
+            <div class="announcement">
+                <h3 class="announcement-title">Defying Limits: Celebrating Triumphs, Innovations, and Boundless Adventures</h3>
+                <p class="announcement-date">Posted on September 10, 2023</p>
+                <p class="announcement-content">Join us as we share stories of thrilling adventures, innovative breakthroughs, and limitless possibilities.</p>
+            </div>
+            <!-- Repeat the announcement structure for other news items -->
+        </section>
+
+    </main>
+    <footer>
+        <!-- ... (previous code) ... -->
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+/* ... (previous styles) ... */
+
+/* Section title styles */
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+/* Ride card styles */
+.ride-card {
+    background-color: #f7f7f7;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.ride-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.ride-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1rem;
+}
+
+.ride-description {
+    font-size: 1rem;
+    color: #666;
+    margin: 1rem 0;
+}
+
+.ride-link {
+    display: inline-block;
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.ride-link:hover {
+    color: #0056b3;
+}
+
+/* Testimonial carousel styles */
+.testimonial-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.testimonial-slide {
+    flex: 1 0 300px;
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonial-slide img {
+    max-width: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.testimonial-quote {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Announcement styles */
+.announcement {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.announcement-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.announcement-date {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.announcement-content {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* ... (previous keyframes) ... */
+<!-- HTML with responsive images -->
+<picture>
+  <source srcset="image.webp" type="image/webp">
+  <source srcset="image.jpg" type="image/jpeg">
+  <img src="image.jpg" alt="Description" loading="lazy">
+</picture>
+
+// webpack.config.js
+const TerserPlugin = require('terser-webpack-plugin');
+
+module.exports = {
+  optimization: {
+    minimizer: [new TerserPlugin()],
+  },
+};
+
+<img src="image.jpg" alt="Description" loading="lazy">
+
+const express = require('express');
+const app = express();
+
+// Example middleware for caching
+const cacheMiddleware = (req, res, next) => {
+  const cacheKey = req.originalUrl || req.url;
+  const cachedData = cache.get(cacheKey);
+
+  if (cachedData) {
+    res.send(cachedData);
+  } else {
+    res.sendResponse = res.send;
+    res.send = (body) => {
+      cache.set(cacheKey, body, 3600); // Cache for 1 hour
+      res.sendResponse(body);
+    };
+    next();
+  }
+};
+
+app.get('/api/data', cacheMiddleware, (req, res) => {
+  // Fetch data from database or API
+  const data = fetchData();
+  res.json(data);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
+
+// main.js (Homepage Main Script)
+import { setupParallax, setupVideoHeader } from './homepage-components.js';
+
+document.addEventListener('DOMContentLoaded', () => {
+    setupParallax();
+    setupVideoHeader();
+});
+
+// homepage-components.js (Homepage Component Scripts)
+export function setupParallax() {
+    // Your advanced parallax setup code here
+}
+
+export function setupVideoHeader() {
+    // Your advanced video header setup code here
+}
+
+// homepage-components.js
+export async function setupParallax() {
+    // Asynchronous code to load parallax assets
+    try {
+        const asset1 = await loadImage('path/to/asset1.jpg');
+        const asset2 = await loadImage('path/to/asset2.jpg');
+        // Initialize parallax effect
+        // ...
+    } catch (error) {
+        console.error('Error loading parallax assets:', error);
+    }
+}
+
+function loadImage(url) {
+    return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = reject;
+        image.src = url;
+    });
+}
+
+// homepage-components.js
+export function setupVideoHeader() {
+    const videoContainer = document.getElementById('video-container');
+    const video = document.getElementById('homepage-video');
+
+    if (!videoContainer || !video) {
+        console.error('Video elements not found');
+        return;
+    }
+
+    // Your advanced video header setup code here
+}
+
+// homepage-components.js
+/**
+ * Sets up the parallax effect for the homepage.
+ * @throws {Error} If parallax assets fail to load.
+ */
+export async function setupParallax() {
+    try {
+        // ... (rest of the code)
+    } catch (error) {
+        console.error('Error loading parallax assets:', error);
+        throw new Error('Parallax setup failed');
+    }
+}
+
+// main.js
+import { setupParallax, setupVideoHeader } from './homepage-components.js';
+
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        await setupParallax();
+        setupVideoHeader();
+    } catch (error) {
+        console.error('Homepage setup failed:', error);
+    }
+});
+
+// homepage-components.js
+export async function setupParallax() {
+    try {
+        const [asset1, asset2] = await Promise.all([
+            loadImage('path/to/asset1.jpg'),
+            loadImage('path/to/asset2.jpg')
+        ]);
+        // Initialize advanced parallax effect
+        // ...
+    } catch (error) {
+        throw new Error('Parallax setup failed');
+    }
+}
+
+async function loadImage(url) {
+    return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = reject;
+        image.src = url;
+    });
+}
+
+// homepage-components.js
+export async function setupVideoHeader() {
+    const videoContainer = document.getElementById('video-container');
+    const video = document.getElementById('homepage-video');
+
+    if (!videoContainer || !video) {
+        console.error('Video elements not found');
+        return;
+    }
+
+    try {
+        await loadVideo('path/to/video.mp4');
+        // Initialize advanced video header
+        // ...
+    } catch (error) {
+        console.error('Video header setup failed:', error);
+    }
+}
+
+async function loadVideo(url) {
+    return new Promise((resolve, reject) => {
+        const video = document.createElement('video');
+        video.preload = 'auto';
+        video.oncanplaythrough = () => resolve(video);
+        video.onerror = reject;
+        video.src = url;
+    });
+}
+
+// homepage-components.js
+export async function setupParallax() {
+    try {
+        const [asset1, asset2] = await Promise.all([
+            loadImage('path/to/asset1.jpg'),
+            loadImage('path/to/asset2.jpg')
+        ]);
+        // Initialize advanced parallax effect
+        // ...
+    } catch (error) {
+        console.error('Error loading parallax assets:', error);
+        throw new Error('Parallax setup failed');
+    }
+}
+
+export async function setupVideoHeader() {
+    const videoContainer = document.getElementById('video-container');
+    const video = document.getElementById('homepage-video');
+
+    if (!videoContainer || !video) {
+        console.error('Video elements not found');
+        return;
+    }
+
+    try {
+        await loadVideo('path/to/video.mp4');
+        // Initialize advanced video header
+        // ...
+    } catch (error) {
+        console.error('Error loading video:', error);
+    }
+}
+
+// homepage-components.js
+export async function setupParallax() {
+    try {
+        const [asset1, asset2] = await Promise.all([
+            lazyLoadImage('path/to/asset1.jpg'),
+            lazyLoadImage('path/to/asset2.jpg')
+        ]);
+        // Initialize advanced parallax effect
+        // ...
+    } catch (error) {
+        console.error('Error loading parallax assets:', error);
+        throw new Error('Parallax setup failed');
+    }
+}
+
+async function lazyLoadImage(url) {
+    return new Promise((resolve, reject) => {
+        const image = new Image();
+        image.onload = () => resolve(image);
+        image.onerror = reject;
+        image.src = url;
+    });
+}
+
+// homepage-components.js
+export async function setupVideoHeader() {
+    const videoContainer = document.getElementById('video-container');
+    const video = document.getElementById('homepage-video');
+
+    if (!videoContainer || !video) {
+        console.error('Video elements not found');
+        return;
+    }
+
+    try {
+        await preloadVideo('path/to/video.mp4');
+        setupVideoPlayback(video);
+    } catch (error) {
+        console.error('Error loading video:', error);
+    }
+}
+
+async function preloadVideo(url) {
+    return new Promise((resolve, reject) => {
+        const video = document.createElement('video');
+        video.preload = 'auto';
+        video.oncanplaythrough = () => resolve(video);
+        video.onerror = reject;
+        video.src = url;
+    });
+}
+
+function setupVideoPlayback(videoElement) {
+    videoElement.play()
+        .then(() => {
+            // Video playback has started
+            // Implement advanced video playback features
+            // ...
+        })
+        .catch(error => {
+            console.error('Video playback error:', error);
+        });
+}
+
+// homepage-components.js
+export async function setupParallax() {
+    try {
+        const [asset1, asset2] = await Promise.all([
+            lazyLoadImage('path/to/asset1.jpg'),
+            lazyLoadImage('path/to/asset2.jpg')
+        ]);
+        // Optimize parallax effect for smoother scrolling
+        optimizeParallax();
+    } catch (error) {
+        console.error('Error loading parallax assets:', error);
+        throw new Error('Parallax setup failed');
+    }
+}
+
+function optimizeParallax() {
+    // Optimize parallax implementation
+    // Use requestAnimationFrame for smoother animations
+    // ...
+}
+
+// homepage-components.js
+
+// Lazy load an image
+async function lazyLoadImage(url) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = reject;
+    image.src = url;
+  });
+}
+
+// Preload a video
+async function preloadVideo(url) {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement('video');
+    video.preload = 'auto';
+    video.oncanplaythrough = () => resolve(video);
+    video.onerror = reject;
+    video.src = url;
+  });
+}
+
+// Initialize parallax effect
+function initializeParallax() {
+  const parallaxContainer = document.getElementById('parallax-container');
+  const foregroundLayer = parallaxContainer.querySelector('.foreground-layer');
+  const backgroundLayer = parallaxContainer.querySelector('.background-layer');
+
+  const updateParallaxPosition = () => {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const translateY = -scrollY * 0.3; // Adjust parallax speed here
+    foregroundLayer.style.transform = `translateY(${translateY}px)`;
+    backgroundLayer.style.transform = `translateY(${translateY * 0.5}px)`;
+  };
+
+  updateParallaxPosition();
+  window.addEventListener('scroll', updateParallaxPosition);
+}
+
+// Setup video playback
+function setupVideoPlayback(videoElement) {
+  videoElement.play()
+    .then(() => {
+      // Implement advanced video playback features here
+    })
+    .catch(error => {
+      console.error('Video playback error:', error);
+    });
+}
+
+// Main function to setup homepage components
+export async function setupHomepage() {
+  try {
+    const [image1, image2] = await Promise.all([
+      lazyLoadImage('path/to/image1.jpg'),
+      lazyLoadImage('path/to/image2.jpg')
+    ]);
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      setupVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+  } catch (error) {
+    console.error('Homepage setup error:', error);
+  }
+}
+
+// homepage-components.js
+
+// Lazy load an image
+async function lazyLoadImage(url) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = reject;
+    image.src = url;
+  });
+}
+
+// Preload a video
+async function preloadVideo(url) {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement('video');
+    video.preload = 'auto';
+    video.oncanplaythrough = () => resolve(video);
+    video.onerror = reject;
+    video.src = url;
+  });
+}
+
+// Initialize parallax effect
+function initializeParallax() {
+  const parallaxContainer = document.getElementById('parallax-container');
+  const foregroundLayer = parallaxContainer.querySelector('.foreground-layer');
+  const backgroundLayer = parallaxContainer.querySelector('.background-layer');
+
+  const updateParallaxPosition = () => {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const translateY = -scrollY * 0.3; // Adjust parallax speed here
+    foregroundLayer.style.transform = `translateY(${translateY}px)`;
+    backgroundLayer.style.transform = `translateY(${translateY * 0.5}px)`;
+  };
+
+  updateParallaxPosition();
+  window.addEventListener('scroll', updateParallaxPosition);
+}
+
+// Setup video playback
+async function setupVideoPlayback(videoElement) {
+  try {
+    await videoElement.play();
+    // Implement advanced video playback features here
+  } catch (error) {
+    console.error('Video playback error:', error);
+  }
+}
+
+// Main function to setup homepage components
+export async function setupHomepage() {
+  const [image1, image2] = await Promise.all([
+    lazyLoadImage('path/to/image1.jpg'),
+    lazyLoadImage('path/to/image2.jpg')
+  ]);
+
+  const videoElement = document.getElementById('homepage-video');
+  if (videoElement) {
+    await preloadVideo('path/to/video.mp4');
+    await setupVideoPlayback(videoElement);
+  }
+
+  initializeParallax();
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to lazy load an image
+async function lazyLoadImage(url) {
+  return new Promise((resolve, reject) => {
+    const image = new Image();
+    image.onload = () => resolve(image);
+    image.onerror = reject;
+    image.src = url;
+  });
+}
+
+// Function to preload a video
+async function preloadVideo(url) {
+  return new Promise((resolve, reject) => {
+    const video = document.createElement('video');
+    video.preload = 'auto';
+    video.oncanplaythrough = () => resolve(video);
+    video.onerror = reject;
+    video.src = url;
+  });
+}
+
+// Function to initialize parallax effect
+function initializeParallax() {
+  const parallaxContainer = document.getElementById('parallax-container');
+  if (!parallaxContainer) return;
+
+  const foregroundLayer = parallaxContainer.querySelector('.foreground-layer');
+  const backgroundLayer = parallaxContainer.querySelector('.background-layer');
+
+  function updateParallaxPosition() {
+    const scrollY = window.scrollY || window.pageYOffset;
+    const translateY = -scrollY * 0.3; // Adjust parallax speed here
+    foregroundLayer.style.transform = `translateY(${translateY}px)`;
+    backgroundLayer.style.transform = `translateY(${translateY * 0.5}px)`;
+  }
+
+  updateParallaxPosition();
+  window.addEventListener('scroll', updateParallaxPosition);
+}
+
+// Function to setup video playback
+async function setupVideoPlayback(videoElement) {
+  try {
+    await videoElement.play();
+    // Implement advanced video playback features here
+  } catch (error) {
+    console.error('Video playback error:', error);
+  }
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to animate scroll to a target element
+function animateScrollTo(element) {
+  const startPosition = window.scrollY || window.pageYOffset;
+  const targetPosition = element.getBoundingClientRect().top + startPosition;
+  const duration = 1000; // Animation duration in milliseconds
+  const startTime = performance.now();
+
+  function scrollStep(timestamp) {
+    const currentTime = timestamp - startTime;
+    const progress = Math.min(currentTime / duration, 1);
+
+    window.scrollTo(0, startPosition + (targetPosition - startPosition) * progress);
+
+    if (currentTime < duration) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+// Function to animate header title and buttons
+function animateHeaderElements() {
+  const headerTitle = document.getElementById('header-title');
+  const headerButtons = document.querySelectorAll('.header-button');
+
+  headerTitle.style.opacity = '0';
+  headerTitle.style.transform = 'translateY(50px)';
+
+  headerButtons.forEach((button, index) => {
+    button.style.opacity = '0';
+    button.style.transform = `translateY(${30 * (index + 1)}px)`;
+  });
+
+  setTimeout(() => {
+    headerTitle.style.transition = 'opacity 1s, transform 1s';
+    headerTitle.style.opacity = '1';
+    headerTitle.style.transform = 'translateY(0)';
+
+    headerButtons.forEach((button, index) => {
+      button.style.transition = 'opacity 1s, transform 1s';
+      button.style.opacity = '1';
+      button.style.transform = 'translateY(0)';
+    });
+  }, 500);
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+    animateHeaderElements();
+
+    // Scroll to about section when "Learn More" button is clicked
+    const learnMoreButton = document.getElementById('learn-more-button');
+    const aboutSection = document.getElementById('about-section');
+    learnMoreButton.addEventListener('click', () => {
+      animateScrollTo(aboutSection);
+    });
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to animate scroll to a target element
+function animateScrollTo(element) {
+  const startPosition = window.scrollY || window.pageYOffset;
+  const targetPosition = element.getBoundingClientRect().top + startPosition;
+  const duration = 1000; // Animation duration in milliseconds
+  const startTime = performance.now();
+
+  function scrollStep(timestamp) {
+    const currentTime = timestamp - startTime;
+    const progress = Math.min(currentTime / duration, 1);
+
+    window.scrollTo(0, startPosition + (targetPosition - startPosition) * progress);
+
+    if (currentTime < duration) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+// Function to animate header title and buttons
+function animateHeaderElements() {
+  const headerTitle = document.getElementById('header-title');
+  const headerButtons = document.querySelectorAll('.header-button');
+
+  headerTitle.style.opacity = '0';
+  headerTitle.style.transform = 'translateY(50px)';
+  headerTitle.style.transition = 'opacity 1s, transform 1s';
+
+  headerButtons.forEach((button, index) => {
+    button.style.opacity = '0';
+    button.style.transform = `translateY(${30 * (index + 1)}px)`;
+    button.style.transition = 'opacity 1s, transform 1s';
+  });
+
+  setTimeout(() => {
+    headerTitle.style.opacity = '1';
+    headerTitle.style.transform = 'translateY(0)';
+
+    headerButtons.forEach((button, index) => {
+      button.style.opacity = '1';
+      button.style.transform = 'translateY(0)';
+    });
+  }, 500);
+}
+
+// Function to animate button interactions
+function animateButtonInteraction(button) {
+  button.addEventListener('mouseenter', () => {
+    button.style.transform = 'scale(1.05)';
+    button.style.transition = 'transform 0.3s';
+  });
+
+  button.addEventListener('mouseleave', () => {
+    button.style.transform = 'scale(1)';
+  });
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+    animateHeaderElements();
+
+    // Scroll to about section when "Learn More" button is clicked
+    const learnMoreButton = document.getElementById('learn-more-button');
+    const aboutSection = document.getElementById('about-section');
+    learnMoreButton.addEventListener('click', () => {
+      animateScrollTo(aboutSection);
+    });
+
+    // Apply animations to buttons
+    const headerButtons = document.querySelectorAll('.header-button');
+    headerButtons.forEach(animateButtonInteraction);
+    animateButtonInteraction(learnMoreButton);
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to animate scroll to a target element
+function animateScrollTo(element) {
+  const startPosition = window.scrollY || window.pageYOffset;
+  const targetPosition = element.getBoundingClientRect().top + startPosition;
+  const duration = 1000; // Animation duration in milliseconds
+  const startTime = performance.now();
+
+  function scrollStep(timestamp) {
+    const currentTime = timestamp - startTime;
+    const progress = Math.min(currentTime / duration, 1);
+
+    window.scrollTo(0, startPosition + (targetPosition - startPosition) * progress);
+
+    if (currentTime < duration) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+// Function to animate header title and buttons
+function animateHeaderElements() {
+  const headerTitle = document.getElementById('header-title');
+  const headerButtons = document.querySelectorAll('.header-button');
+
+  headerTitle.style.opacity = '0';
+  headerTitle.style.transform = 'translateY(50px)';
+  headerTitle.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+
+  headerButtons.forEach((button, index) => {
+    button.style.opacity = '0';
+    button.style.transform = `translateY(${30 * (index + 1)}px)`;
+    button.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+  });
+
+  setTimeout(() => {
+    headerTitle.style.opacity = '1';
+    headerTitle.style.transform = 'translateY(0)';
+
+    headerButtons.forEach((button, index) => {
+      button.style.opacity = '1';
+      button.style.transform = 'translateY(0)';
+    });
+  }, 500);
+}
+
+// Function to animate button interactions
+function animateButtonInteraction(button) {
+  button.addEventListener('mouseenter', () => {
+    button.style.transform = 'scale(1.05)';
+    button.style.transition = 'transform 0.3s ease-out';
+  });
+
+  button.addEventListener('mouseleave', () => {
+    button.style.transform = 'scale(1)';
+  });
+}
+
+// Function to smoothly start video playback
+async function startVideoPlayback(videoElement) {
+  try {
+    await videoElement.play();
+  } catch (error) {
+    console.error('Error while starting video playback:', error);
+  }
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+      startVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+    animateHeaderElements();
+
+    // Scroll to about section when "Learn More" button is clicked
+    const learnMoreButton = document.getElementById('learn-more-button');
+    const aboutSection = document.getElementById('about-section');
+    learnMoreButton.addEventListener('click', () => {
+      animateScrollTo(aboutSection);
+    });
+
+    // Apply animations to buttons
+    const headerButtons = document.querySelectorAll('.header-button');
+    headerButtons.forEach(animateButtonInteraction);
+    animateButtonInteraction(learnMoreButton);
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to animate scroll to a target element
+function animateScrollTo(element) {
+  const startPosition = window.scrollY || window.pageYOffset;
+  const targetPosition = element.getBoundingClientRect().top + startPosition;
+  const duration = 800; // Animation duration in milliseconds
+  const startTime = performance.now();
+
+  function scrollStep(timestamp) {
+    const currentTime = timestamp - startTime;
+    const progress = Math.min(currentTime / duration, 1);
+
+    window.scrollTo(0, startPosition + (targetPosition - startPosition) * progress);
+
+    if (currentTime < duration) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+// Function to animate header title and buttons
+function animateHeaderElements() {
+  const headerTitle = document.getElementById('header-title');
+  const headerButtons = document.querySelectorAll('.header-button');
+
+  headerTitle.style.opacity = '0';
+  headerTitle.style.transform = 'translateY(50px)';
+  headerTitle.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+
+  headerButtons.forEach((button, index) => {
+    button.style.opacity = '0';
+    button.style.transform = `translateY(${30 * (index + 1)}px)`;
+    button.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+  });
+
+  setTimeout(() => {
+    headerTitle.style.opacity = '1';
+    headerTitle.style.transform = 'translateY(0)';
+
+    headerButtons.forEach((button, index) => {
+      button.style.opacity = '1';
+      button.style.transform = 'translateY(0)';
+    });
+  }, 500);
+}
+
+// Function to animate button interactions
+function animateButtonInteraction(button) {
+  button.addEventListener('mouseenter', () => {
+    button.style.transform = 'scale(1.05)';
+    button.style.transition = 'transform 0.3s ease-out';
+  });
+
+  button.addEventListener('mouseleave', () => {
+    button.style.transform = 'scale(1)';
+  });
+}
+
+// Function to smoothly start video playback
+async function startVideoPlayback(videoElement) {
+  try {
+    await videoElement.play();
+  } catch (error) {
+    console.error('Error while starting video playback:', error);
+  }
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+      startVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+    animateHeaderElements();
+
+    // Scroll to about section when "Learn More" button is clicked
+    const learnMoreButton = document.getElementById('learn-more-button');
+    const aboutSection = document.getElementById('about-section');
+    learnMoreButton.addEventListener('click', () => {
+      animateScrollTo(aboutSection);
+    });
+
+    // Apply animations to buttons
+    const headerButtons = document.querySelectorAll('.header-button');
+    headerButtons.forEach(animateButtonInteraction);
+    animateButtonInteraction(learnMoreButton);
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// homepage-components.js
+
+// Function to animate scroll to a target element
+function animateScrollTo(element) {
+  const startPosition = window.scrollY || window.pageYOffset;
+  const targetPosition = element.getBoundingClientRect().top + startPosition;
+  const duration = 800; // Animation duration in milliseconds
+  const startTime = performance.now();
+
+  function scrollStep(timestamp) {
+    const currentTime = timestamp - startTime;
+    const progress = Math.min(currentTime / duration, 1);
+    const easeInOutQuad = t => t<.5 ? 2*t*t : -1+(4-2*t)*t;
+
+    window.scrollTo(0, startPosition + (targetPosition - startPosition) * easeInOutQuad(progress));
+
+    if (currentTime < duration) {
+      requestAnimationFrame(scrollStep);
+    }
+  }
+
+  requestAnimationFrame(scrollStep);
+}
+
+// Function to animate header title and buttons
+function animateHeaderElements() {
+  const headerTitle = document.getElementById('header-title');
+  const headerButtons = document.querySelectorAll('.header-button');
+
+  headerTitle.style.opacity = '0';
+  headerTitle.style.transform = 'translateY(50px)';
+  headerTitle.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+
+  headerButtons.forEach((button, index) => {
+    button.style.opacity = '0';
+    button.style.transform = `translateY(${30 * (index + 1)}px)`;
+    button.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+  });
+
+  setTimeout(() => {
+    headerTitle.style.opacity = '1';
+    headerTitle.style.transform = 'translateY(0)';
+
+    headerButtons.forEach((button, index) => {
+      button.style.opacity = '1';
+      button.style.transform = 'translateY(0)';
+    });
+  }, 500);
+}
+
+// Function to animate button interactions
+function animateButtonInteraction(button) {
+  button.addEventListener('mouseenter', () => {
+    button.style.transform = 'scale(1.08)';
+    button.style.transition = 'transform 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28)';
+  });
+
+  button.addEventListener('mouseleave', () => {
+    button.style.transform = 'scale(1)';
+  });
+}
+
+// Function to smoothly start video playback
+async function startVideoPlayback(videoElement) {
+  try {
+    await videoElement.play();
+  } catch (error) {
+    console.error('Error while starting video playback:', error);
+  }
+}
+
+// Main function to setup homepage components
+async function setupHomepage() {
+  const imagesToLoad = [
+    'path/to/image1.jpg',
+    'path/to/image2.jpg'
+  ];
+
+  try {
+    const [image1, image2] = await Promise.all(imagesToLoad.map(lazyLoadImage));
+
+    const videoElement = document.getElementById('homepage-video');
+    if (videoElement) {
+      await preloadVideo('path/to/video.mp4');
+      await setupVideoPlayback(videoElement);
+      startVideoPlayback(videoElement);
+    }
+
+    initializeParallax();
+    animateHeaderElements();
+
+    // Scroll to about section when "Learn More" button is clicked
+    const learnMoreButton = document.getElementById('learn-more-button');
+    const aboutSection = document.getElementById('about-section');
+    learnMoreButton.addEventListener('click', () => {
+      animateScrollTo(aboutSection);
+    });
+
+    // Apply animations to buttons
+    const headerButtons = document.querySelectorAll('.header-button');
+    headerButtons.forEach(animateButtonInteraction);
+    animateButtonInteraction(learnMoreButton);
+  } catch (error) {
+    console.error('Error while setting up homepage:', error);
+  }
+}
+
+// Load homepage components when DOM is ready
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', setupHomepage);
+} else {
+  setupHomepage();
+}
+
+// Model
+class HomepageModel {
+  constructor() {
+    this.imagesToLoad = [
+      'path/to/image1.jpg',
+      'path/to/image2.jpg'
+    ];
+    this.videoSource = 'path/to/video.mp4';
+  }
+
+  async loadImages() {
+    return Promise.all(this.imagesToLoad.map(lazyLoadImage));
+  }
+
+  async preloadVideo() {
+    return preloadVideo(this.videoSource);
+  }
+}
+
+// View
+class HomepageView {
+  constructor() {
+    this.headerTitle = document.getElementById('header-title');
+    this.headerButtons = document.querySelectorAll('.header-button');
+    this.learnMoreButton = document.getElementById('learn-more-button');
+    this.aboutSection = document.getElementById('about-section');
+    this.headerVideo = document.getElementById('homepage-video');
+  }
+
+  animateHeaderElements() {
+    // ... (same as previous code)
+  }
+
+  animateButtonInteraction(button) {
+    // ... (same as previous code)
+  }
+
+  animateScrollTo(element) {
+    // ... (same as previous code)
+  }
+
+  startVideoPlayback(videoElement) {
+    // ... (same as previous code)
+  }
+}
+
+// Controller
+class HomepageController {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+
+    this.init();
+  }
+
+  async init() {
+    try {
+      await this.model.loadImages();
+      await this.model.preloadVideo();
+
+      this.view.animateHeaderElements();
+      this.view.animateButtonInteraction(this.view.learnMoreButton);
+
+      this.view.learnMoreButton.addEventListener('click', () => {
+        this.view.animateScrollTo(this.view.aboutSection);
+      });
+
+      this.view.headerButtons.forEach(button =>
+        this.view.animateButtonInteraction(button)
+      );
+    } catch (error) {
+      console.error('Error while setting up homepage:', error);
+    }
+  }
+}
+
+// Initialize the homepage components
+const homepageModel = new HomepageModel();
+const homepageView = new HomepageView();
+const homepageController = new HomepageController(homepageModel, homepageView);
+
+// Model
+class HomepageModel {
+  constructor() {
+    this.imagesToLoad = [
+      'path/to/image1.jpg',
+      'path/to/image2.jpg'
+    ];
+    this.videoSource = 'path/to/video.mp4';
+  }
+
+  async loadImages() {
+    return Promise.all(this.imagesToLoad.map(lazyLoadImage));
+  }
+
+  async preloadVideo() {
+    return preloadVideo(this.videoSource);
+  }
+}
+
+// View
+class HomepageView {
+  constructor() {
+    this.headerTitle = document.getElementById('header-title');
+    this.headerButtons = document.querySelectorAll('.header-button');
+    this.learnMoreButton = document.getElementById('learn-more-button');
+    this.aboutSection = document.getElementById('about-section');
+    this.headerVideo = document.getElementById('homepage-video');
+  }
+
+  animateHeaderElements() {
+    this.headerTitle.classList.add('animate');
+    this.headerButtons.forEach(button => button.classList.add('animate'));
+  }
+
+  animateButtonInteraction(button) {
+    button.addEventListener('mouseover', () => {
+      button.classList.add('hover');
+    });
+
+    button.addEventListener('mouseout', () => {
+      button.classList.remove('hover');
+    });
+  }
+
+  animateScrollTo(element) {
+    window.scrollTo({
+      behavior: 'smooth',
+      top: element.offsetTop
+    });
+  }
+
+  startVideoPlayback(videoElement) {
+    videoElement.play();
+  }
+}
+
+// Controller
+class HomepageController {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+
+    this.init();
+  }
+
+  async init() {
+    try {
+      await this.model.loadImages();
+      await this.model.preloadVideo();
+
+      this.view.animateHeaderElements();
+      this.view.animateButtonInteraction(this.view.learnMoreButton);
+
+      this.view.learnMoreButton.addEventListener('click', () => {
+        this.view.animateScrollTo(this.view.aboutSection);
+      });
+
+      this.view.headerButtons.forEach(button =>
+        this.view.animateButtonInteraction(button)
+      );
+    } catch (error) {
+      console.error('Error while setting up homepage:', error);
+    }
+  }
+}
+
+// Initialize the homepage components
+const homepageModel = new HomepageModel();
+const homepageView = new HomepageView();
+const homepageController = new HomepageController(homepageModel, homepageView);
+
+// Import modules
+import { lazyLoadImage, preloadVideo } from './imageLoader.js';
+import { animateHeaderTitle, animateHeaderButtons, animateButtonInteraction, animateScrollTo } from './animations.js';
+
+// Model module
+export class HomepageModel {
+  constructor(imagesToLoad, videoSource) {
+    this.imagesToLoad = imagesToLoad;
+    this.videoSource = videoSource;
+  }
+
+  async loadImages() {
+    return Promise.all(this.imagesToLoad.map(lazyLoadImage));
+  }
+
+  async preloadVideo() {
+    return preloadVideo(this.videoSource);
+  }
+}
+
+// View module
+export class HomepageView {
+  constructor() {
+    this.headerTitle = document.getElementById('header-title');
+    this.headerButtons = document.querySelectorAll('.header-button');
+    this.learnMoreButton = document.getElementById('learn-more-button');
+    this.aboutSection = document.getElementById('about-section');
+    this.headerVideo = document.getElementById('homepage-video');
+  }
+
+  animateHeader() {
+    animateHeaderTitle(this.headerTitle);
+    animateHeaderButtons(this.headerButtons);
+  }
+
+  animateScrollTo(element) {
+    animateScrollTo(element);
+  }
+
+  playHeaderVideo() {
+    this.headerVideo.play();
+  }
+}
+
+// Controller module
+export class HomepageController {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+  }
+
+  async init() {
+    try {
+      await this.model.loadImages();
+      await this.model.preloadVideo();
+
+      this.view.animateHeader();
+      this.view.animateButtonInteraction(this.view.learnMoreButton);
+
+      this.view.learnMoreButton.addEventListener('click', () => {
+        this.view.animateScrollTo(this.view.aboutSection);
+      });
+
+      this.view.headerButtons.forEach(button =>
+        animateButtonInteraction(button)
+      );
+
+      this.view.playHeaderVideo();
+    } catch (error) {
+      console.error('Error while setting up homepage:', error);
+    }
+  }
+}
+// Import modules
+import { lazyLoadImage, preloadVideo } from './imageLoader.js';
+import { animateHeaderTitle, animateHeaderButtons, animateButtonInteraction, animateScrollTo } from './animations.js';
+
+// Define homepage elements
+const headerTitle = document.getElementById('header-title');
+const headerButtons = document.querySelectorAll('.header-button');
+const learnMoreButton = document.getElementById('learn-more-button');
+const aboutSection = document.getElementById('about-section');
+const headerVideo = document.getElementById('homepage-video');
+
+// Model module
+class HomepageModel {
+  constructor(imagesToLoad, videoSource) {
+    this.imagesToLoad = imagesToLoad;
+    this.videoSource = videoSource;
+  }
+
+  async loadImages() {
+    await Promise.all(this.imagesToLoad.map(lazyLoadImage));
+  }
+
+  async preloadVideo() {
+    await preloadVideo(this.videoSource);
+  }
+}
+
+// View module
+class HomepageView {
+  animateHeader() {
+    animateHeaderTitle(headerTitle);
+    animateHeaderButtons(headerButtons);
+  }
+
+  animateScrollTo(element) {
+    animateScrollTo(element);
+  }
+
+  playHeaderVideo() {
+    headerVideo.play();
+  }
+}
+
+// Controller module
+class HomepageController {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+  }
+
+  async init() {
+    try {
+      await this.model.loadImages();
+      await this.model.preloadVideo();
+
+      this.view.animateHeader();
+      this.view.animateButtonInteraction(learnMoreButton);
+
+      learnMoreButton.addEventListener('click', () => {
+        this.view.animateScrollTo(aboutSection);
+      });
+
+      headerButtons.forEach(button => animateButtonInteraction(button));
+
+      this.view.playHeaderVideo();
+    } catch (error) {
+      console.error('Error while setting up homepage:', error);
+    }
+  }
+}
+
+// Create instances and initialize
+const homepageModel = new HomepageModel(imagesToLoad, videoSource);
+const homepageView = new HomepageView();
+const homepageController = new HomepageController(homepageModel, homepageView);
+
+homepageController.init();
+// Import modules
+import { lazyLoadImage, preloadVideo } from './imageLoader.js';
+import { animateHeaderTitle, animateHeaderButtons, animateButtonInteraction, animateScrollTo } from './animations.js';
+
+// Define homepage elements
+const headerTitle = document.getElementById('header-title');
+const headerButtons = document.querySelectorAll('.header-button');
+const learnMoreButton = document.getElementById('learn-more-button');
+const aboutSection = document.getElementById('about-section');
+const headerVideo = document.getElementById('homepage-video');
+
+// Model module
+class HomepageModel {
+  constructor(imagesToLoad, videoSource) {
+    this.imagesToLoad = imagesToLoad;
+    this.videoSource = videoSource;
+  }
+
+  async loadImages() {
+    try {
+      await Promise.all(this.imagesToLoad.map(lazyLoadImage));
+    } catch (error) {
+      throw new Error('Error loading images: ' + error.message);
+    }
+  }
+
+  async preloadVideo() {
+    try {
+      await preloadVideo(this.videoSource);
+    } catch (error) {
+      throw new Error('Error preloading video: ' + error.message);
+    }
+  }
+}
+
+// View module
+class HomepageView {
+  animateHeader() {
+    animateHeaderTitle(headerTitle);
+    animateHeaderButtons(headerButtons);
+  }
+
+  animateScrollTo(element) {
+    animateScrollTo(element);
+  }
+
+  playHeaderVideo() {
+    try {
+      headerVideo.play();
+    } catch (error) {
+      console.warn('Video playback failed: ' + error.message);
+    }
+  }
+}
+
+// Controller module
+class HomepageController {
+  constructor(model, view) {
+    this.model = model;
+    this.view = view;
+  }
+
+  async init() {
+    try {
+      await this.model.loadImages();
+      await this.model.preloadVideo();
+
+      this.view.animateHeader();
+      this.view.animateButtonInteraction(learnMoreButton);
+
+      learnMoreButton.addEventListener('click', () => {
+        this.view.animateScrollTo(aboutSection);
+      });
+
+      headerButtons.forEach(button => animateButtonInteraction(button));
+
+      this.view.playHeaderVideo();
+    } catch (error) {
+      console.error('Error while setting up homepage:', error);
+    }
+  }
+}
+
+// Create instances and initialize
+const imagesToLoad = ['image1.jpg', 'image2.jpg', 'image3.jpg'];
+const videoSource = 'homepage-video.mp4';
+
+const homepageModel = new HomepageModel(imagesToLoad, videoSource);
+const homepageView = new HomepageView();
+const homepageController = new HomepageController(homepageModel, homepageView);
+
+homepageController.init();
+// animations.js
+
+export function animateHeaderTitle(titleElement) {
+  titleElement.classList.add('animate-slide');
+}
+/* styles.css */
+
+/* Header title animation */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide {
+  animation: slideIn 1s forwards;
+}
+<!-- index.html -->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- index.html -->
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- index.html -->
+
+<h1 id="header-title" class="animate-slide">Embark on Unforgettable Adventures with Ridezx</h1>
+body {
+  background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+}
+<div class="divider-wave"></div>
+.divider-wave {
+  background: url('wave.svg') center bottom no-repeat;
+  height: 100px;
+  width: 100%;
+}
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.parallax-section {
+  background-image: url('background-image.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+<!-- Add this to your CSS stylesheet -->
+.dynamic-gradient {
+  background-image: linear-gradient(to bottom, #ff9900, #66ccff);
+  transition: background-image 0.5s;
+}
+
+<!-- Add this to your JavaScript -->
+window.addEventListener("scroll", function() {
+  const scrollPosition = window.scrollY;
+  const gradientColor1 = `hsl(${scrollPosition}, 70%, 60%)`;
+  const gradientColor2 = `hsl(${scrollPosition + 120}, 70%, 60%)`;
+  document.querySelector(".dynamic-gradient").style.backgroundImage = `linear-gradient(to bottom, ${gradientColor1}, ${gradientColor2})`;
+});
+/* Apply this CSS to the element you want to transform */
+.transformed-element {
+  transform: perspective(500px) rotateY(20deg);
+  transition: transform 0.3s ease;
+}
+
+/* Apply this JavaScript to trigger the transformation on hover */
+document.querySelector(".transformed-element").addEventListener("mouseenter", function() {
+  this.style.transform = "perspective(500px) rotateY(-20deg)";
+});
+
+document.querySelector(".transformed-element").addEventListener("mouseleave", function() {
+  this.style.transform = "perspective(500px) rotateY(20deg)";
+});
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80, density: { enable: true, value_area: 800 } },
+      // Other particle configurations...
+    }
+  });
+</script>
+<div id="particles-js"></div>
+/* Apply this CSS to the sections you want to transition */
+.section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Apply this JavaScript to trigger the transition */
+document.addEventListener("DOMContentLoaded", function() {
+  const sections = document.querySelectorAll(".section");
+  sections.forEach(section => {
+    section.style.opacity = 1;
+    section.style.transform = "translateY(0)";
+  });
+});
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper-container", {
+    // Swiper configurations...
+  });
+</script>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- Slide items go here -->
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+/* Apply this CSS to your custom cursor element */
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #ff9900;
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s, background-color 0.2s;
+}
+// Apply this JavaScript to track mouse movement and update cursor position
+document.addEventListener("mousemove", function(event) {
+  const cursor = document.querySelector(".custom-cursor");
+  cursor.style.left = event.clientX + "px";
+  cursor.style.top = event.clientY + "px";
+});
+
+// Apply this JavaScript to change cursor appearance on hover
+const interactiveElements = document.querySelectorAll(".interactive-element");
+interactiveElements.forEach(element => {
+  element.addEventListener("mouseenter", function() {
+    const cursor = document.querySelector(".custom-cursor");
+    cursor.style.transform = "scale(1.5)";
+    cursor.style.backgroundColor = "#66ccff";
+  });
+  element.addEventListener("mouseleave", function() {
+    const cursor = document.querySelector(".custom-cursor");
+    cursor.style.transform = "translate(-50%, -50%)";
+    cursor.style.backgroundColor = "#ff9900";
+  });
+});
+<!-- CSS -->
+<style>
+  .dynamic-gradient {
+    background-image: linear-gradient(to bottom, #ff9900, #66ccff);
+    transition: background-image 0.5s;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  window.addEventListener("scroll", function() {
+    const scrollPosition = window.scrollY;
+    const gradientColor1 = `hsl(${scrollPosition}, 70%, 60%)`;
+    const gradientColor2 = `hsl(${scrollPosition + 120}, 70%, 60%)`;
+    document.querySelector(".dynamic-gradient").style.backgroundImage = 
+      `linear-gradient(to bottom, ${gradientColor1}, ${gradientColor2})`;
+  });
+</script>
+<style>
+  .transformed-element {
+    transform: perspective(500px) rotateY(20deg);
+    transition: transform 0.3s ease;
+  }
+</style>
+
+<script>
+  const transformedElement = document.querySelector(".transformed-element");
+
+  transformedElement.addEventListener("mouseenter", function() {
+    this.style.transform = "perspective(500px) rotateY(-20deg)";
+  });
+
+  transformedElement.addEventListener("mouseleave", function() {
+    this.style.transform = "perspective(500px) rotateY(20deg)";
+  });
+</script>
+<!-- HTML -->
+<div id="particles-js"></div>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80, density: { enable: true, value_area: 800 } },
+      // More particle configurations...
+    }
+  });
+</script>
+<style>
+  .section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll(".section");
+    sections.forEach(section => {
+      section.style.opacity = 1;
+      section.style.transform = "translateY(0)";
+    });
+  });
+</script>
+<!-- HTML -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <!-- Slide items go here -->
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- JavaScript -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper-container", {
+    // Swiper configurations...
+  });
+</script>
+<!-- HTML -->
+<div class="dynamic-gradient-section">
+  <p>Scroll down to see dynamic gradients!</p>
+</div>
+
+<!-- CSS -->
+<style>
+  .dynamic-gradient-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #ff9900, #66ccff);
+    transition: background-image 0.5s;
+  }
+</style>
+
+<!-- JavaScript -->
+<script>
+  window.addEventListener("scroll", function() {
+    const scrollPosition = window.scrollY;
+    const gradientColor1 = `hsl(${scrollPosition}, 70%, 60%)`;
+    const gradientColor2 = `hsl(${scrollPosition + 120}, 70%, 60%)`;
+    document.querySelector(".dynamic-gradient-section").style.backgroundImage =
+      `linear-gradient(to bottom, ${gradientColor1}, ${gradientColor2})`;
+  });
+</script>
+<style>
+  .3d-transformed-button {
+    perspective: 800px;
+  }
+
+  .3d-transformed-button:hover {
+    transform: rotateY(-10deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+</style>
+
+<!-- HTML -->
+<button class="3d-transformed-button">Call to Action</button>
+<!-- HTML -->
+<div id="particles-js" class="particle-section"></div>
+
+<!-- JavaScript -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80, density: { enable: true, value_area: 800 } },
+      // More particle configurations...
+    }
+  });
+</script>
+
+<!-- CSS -->
+<style>
+  .particle-section {
+    position: relative;
+    height: 100vh;
+  }
+</style>
+<style>
+  .section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+
+<!-- HTML -->
+<div class="section visible">
+  <h2>Section 1</h2>
+  <p>Content for Section 1</p>
+</div>
+
+<!-- JavaScript -->
+<script>
+  const sections = document.querySelectorAll(".section");
+
+  window.addEventListener("scroll", function() {
+    sections.forEach(section => {
+      if (isElementVisible(section)) {
+        section.classList.add("visible");
+      }
+    });
+  });
+
+  function isElementVisible(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+      rect.top >= 0 &&
+      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+    );
+  }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ridezx - Your Ultimate Riding Experience</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navigation">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section with Dynamic Gradients -->
+  <header class="header">
+    <h1>Welcome to Ridezx</h1>
+    <p>Your Ultimate Riding Experience</p>
+  </header>
+
+  <!-- Features Section with 3D Transformations -->
+  <section class="features">
+    <h2>Our Features</h2>
+    <div class="feature">
+      <div class="feature-icon 3d-transformed-button">
+        <!-- 3D Transformed Button Icon -->
+      </div>
+      <h3>Interactive Navigation</h3>
+      <p>Explore our intuitive navigation system.</p>
+    </div>
+    <!-- More feature blocks... -->
+  </section>
+
+  <!-- Particle Effect Background Section -->
+  <section class="particle-section">
+    <!-- Particle Effects using Particles.js -->
+  </section>
+
+  <!-- About Us Section with Smooth Page Transitions -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <div class="section-content">
+      <!-- Content for About Us section -->
+    </div>
+  </section>
+
+  <!-- Contact Section with Interactive Sliders -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+      <!-- Contact form content -->
+    </div>
+  </section>
+
+  <!-- Custom Loading Animation -->
+  <div class="custom-loader">
+    <!-- Custom loading animation -->
+  </div>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">
+    <!-- Creative scroll indicator -->
+  </div>
+
+  <!-- Custom Cursor Animation -->
+  <div class="custom-cursor">
+    <!-- Custom cursor animation -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Thrilling Adventures Await</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <!-- Your navigation menu content here -->
+        </nav>
+        <div class="hero-section">
+            <h1 class="hero-title">Embark on Unforgettable Adventures with Ridezx</h1>
+            <p class="hero-subtitle">Where Innovation Meets Thrills</p>
+            <a href="#about" class="scroll-down-link">Scroll Down</a>
+        </div>
+    </header>
+    <section id="about" class="about-section">
+        <!-- Your about section content here -->
+    </section>
+    <!-- Other sections of the homepage -->
+    <footer class="main-footer">
+        <!-- Your footer content here -->
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* Reset and basic styling */
+body, h1, h2, h3, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Main header styling */
+.main-header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.scroll-down-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* About section styling */
+.about-section {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+/* Other sections and styling here */
+/* Main footer styling */
+.main-footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Thrilling Adventures Await</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#adventures">Adventures</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1 class="hero-title">Embark on Unforgettable Adventures with Ridezx</h1>
+            <p class="hero-subtitle">Where Innovation Meets Thrills</p>
+            <a href="#about" class="scroll-down-link">Scroll Down</a>
+        </div>
+    </header>
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At Ridezx, we're passionate about creating extraordinary adventure experiences that push boundaries and ignite your sense of adventure. With cutting-edge technology and a dedicated team of experts, we redefine what it means to seek thrills.</p>
+        </div>
+    </section>
+    <section id="adventures" class="adventures-section">
+        <div class="adventures-content">
+            <h2>Our Adventures</h2>
+            <div class="adventure-card">
+                <img src="adventure1.jpg" alt="Adventure 1">
+                <h3>Mountain Expedition</h3>
+                <p>Climb the highest peaks and conquer your fears with our exhilarating mountain expeditions.</p>
+            </div>
+            <!-- Add more adventure cards here -->
+        </div>
+    </section>
+    <!-- More sections here -->
+    <footer class="main-footer">
+        <p>&copy; 2023 Ridezx. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* ... Previous CSS rules ... */
+
+/* Navigation menu styling */
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.main-nav li {
+    margin: 0 15px;
+}
+.main-nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.main-nav a:hover {
+    color: #ff9900;
+}
+
+/* About section styling */
+.about-section {
+    background-color: #f4f4f4;
+    padding: 80px 0;
+    text-align: center;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-content h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+}
+
+/* Adventures section styling */
+.adventures-section {
+    padding: 100px 0;
+}
+.adventures-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+.adventure-card {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+.adventure-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.adventure-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.adventure-card p {
+    font-size: 16px;
+    color: #666666;
+}
+
+/* ... Footer styling and other sections ... */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Thrilling Adventures Await</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#adventures">Adventures</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero-section">
+            <h1 class="hero-title">Embark on Unforgettable Adventures with Ridezx</h1>
+            <p class="hero-subtitle">Where Innovation Meets Thrills</p>
+            <a href="#about" class="scroll-down-link">Explore More</a>
+        </div>
+    </header>
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>At Ridezx, we're passionate about creating extraordinary adventure experiences that push boundaries and ignite your sense of adventure. With cutting-edge technology and a dedicated team of experts, we redefine what it means to seek thrills.</p>
+        </div>
+    </section>
+    <section id="adventures" class="adventures-section">
+        <div class="adventures-content">
+            <h2>Our Adventures</h2>
+            <div class="adventure-card">
+                <img src="adventure1.jpg" alt="Mountain Expedition">
+                <h3>Mountain Expedition</h3>
+                <p>Climb the highest peaks and conquer your fears with our exhilarating mountain expeditions.</p>
+            </div>
+            <!-- Add more adventure cards here -->
+        </div>
+    </section>
+    <!-- More sections here -->
+    <footer class="main-footer">
+        <p>&copy; 2023 Ridezx. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* ... Previous CSS rules ... */
+
+/* Scroll down link styling */
+.scroll-down-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.scroll-down-link:hover {
+    background-color: #ff8000;
+}
+
+/* ... Other styling refinements ... */
+// scripts.js
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+// Dynamic gradients based on scroll position
+window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const gradientStart = '#ff9900';
+    const gradientEnd = '#ff8000';
+    const gradient = `linear-gradient(to bottom, ${gradientStart}, ${gradientEnd})`;
+
+    document.documentElement.style.setProperty('--gradient-bg', gradient);
+});
+
+// Interactive sliders for image carousel
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+// Custom animated cursor
+const cursor = document.querySelector('.custom-cursor');
+document.addEventListener('mousemove', (e) => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+});
+/* ... Previous CSS rules ... */
+
+/* Custom cursor */
+.custom-cursor {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ff9900;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.3s ease;
+    z-index: 9999;
+}
+.custom-cursor::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transform: scale(0.5);
+    opacity: 0.5;
+}
+// scripts.js
+
+// Initialize Barba.js for smooth page transitions
+barba.init({
+    transitions: [{
+        name: "fade-in-out",
+        async leave(data) {
+            await gsap.to(data.current.container, { opacity: 0, duration: 0.5 });
+            data.current.container.remove();
+        },
+        async enter(data) {
+            await gsap.from(data.next.container, { opacity: 0, duration: 0.5 });
+        }
+    }]
+});
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Home</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Your header content here -->
+    </header>
+
+    <!-- Particle effects section -->
+    <section id="particles-js">
+        <!-- Your particle effects content here -->
+    </section>
+
+    <!-- Main content section -->
+    <section class="main-content">
+        <!-- Your main content here -->
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/2.9.7/barba.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Home</title>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Your header content here -->
+    </header>
+
+    <!-- Particle effects section -->
+    <section id="particles-js">
+        <!-- Your particle effects content here -->
+    </section>
+
+    <!-- Main content section -->
+    <section class="main-content">
+        <!-- Your main content here -->
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Your footer content here -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/2.9.7/barba.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ridezx - Home</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <!-- Navigation links here -->
+        </nav>
+    </header>
+
+    <section class="particles-section">
+        <div id="particles-js"></div>
+        <div class="particles-content">
+            <!-- Particle effects content here -->
+        </div>
+    </section>
+
+    <section class="main-content">
+        <div class="carousel">
+            <!-- Image carousel content here -->
+        </div>
+        <div class="cta">
+            <h2>Discover Thrilling Adventures</h2>
+            <p>Embark on a journey of excitement and awe. Book your ride today!</p>
+            <a href="#" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- Footer content here -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/2.9.7/barba.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+/* General styles */
+
+/* Header styles */
+.header {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* Navigation styles */
+.nav {
+    /* Your navigation styles here */
+}
+
+/* Particle effects section styles */
+.particles-section {
+    position: relative;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.particles-content {
+    /* Particle effects content styles */
+}
+
+/* Main content section styles */
+.main-content {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.carousel {
+    /* Image carousel styles */
+}
+
+.cta {
+    /* Call-to-action styles */
+}
+
+.cta-button {
+    /* Button styles */
+}
+
+/* Footer styles */
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+<!-- ... Previous HTML content ... -->
+
+<section class="main-content">
+    <div class="carousel">
+        <div class="carousel-item">
+            <img src="images/ride1.jpg" alt="Ride 1">
+            <div class="carousel-caption">
+                <h3>Experience the Thrill</h3>
+                <p>Get ready for heart-pounding adventures.</p>
+            </div>
+        </div>
+        <!-- Add more carousel items here -->
+    </div>
+    <div class="cta">
+        <h2>Discover Thrilling Adventures</h2>
+        <p>Embark on a journey of excitement and awe. Book your ride today!</p>
+        <a href="#" class="cta-button">Book Now</a>
+    </div>
+</section>
+
+<!-- ... Remaining HTML content ... -->
+/* ... Previous CSS styles ... */
+
+/* Main content section styles */
+.main-content {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.carousel-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cta {
+    margin-top: 30px;
+}
+
+.cta h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.cta p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: #ff5500;
+}
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/2.10.0/barba.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="scripts.js"></script>
